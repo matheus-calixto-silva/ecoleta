@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img src="/assets/logo.svg">
+    <img src="public/assets/logo.svg">
 </h1>
 
 <h1 align="center" style="border-radius: 8px;">
-    <img src="assets/ecoleta.png">
+    <img src="public/assets/ecoleta.png">
 </h1>
 
 <h3 align="center">
@@ -23,6 +23,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Nunjucks](https://www.npmjs.com/package/nunjucks)
+- [Express](https://expressjs.com/pt-br/)
 
 ---
 

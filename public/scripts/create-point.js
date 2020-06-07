@@ -35,7 +35,7 @@ function getCities(event) {
     .then(res => res.json())
     .then(cities => {
       for (city of cities) {
-        citySelect.innerHTML += `<option value="${city.id}">${city.nome}</option>`
+        citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
       }
 
       citySelect.disabled = false;
@@ -69,7 +69,7 @@ document
     itemLi.classList.toggle('selected')
     
     const itemId = itemLi.dataset.id;
-
+    console.log('ITEM ID: ', itemId)
     //verificar se existem ites selecionados
     //se sim, "pegar" os items selecionados 
 
@@ -96,7 +96,7 @@ document
       selectedItems.push(itemId);
     }
 
-    console.log(selectedItems);
+    console.log('selectedItems: ', selectedItems);
     // atualizar o campo escondido com os dados selecionados
     collectedItems.value = selectedItems;
   } 

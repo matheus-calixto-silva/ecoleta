@@ -25,6 +25,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Nunjucks](https://www.npmjs.com/package/nunjucks)
 - [Express](https://expressjs.com/pt-br/)
+- [nodeJS](https://nodejs.org/en/)
+- [Sqlite3](https://www.sqlite.org/index.html)
 
 ---
 
